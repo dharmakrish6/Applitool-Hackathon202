@@ -1,0 +1,5 @@
+{
+    "firstProduct":"div#product_grid>div:first-child",
+    "newPriceText":"#new_price",
+    "sizeSelector":"div.nice-select>span"
+}

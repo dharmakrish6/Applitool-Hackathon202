@@ -1,0 +1,10 @@
+{
+    "crossBrowserElement": {
+        "wishlist": "#A__wishlist__52",
+        "searchIcon": "#DIV__colxlcollg__40",
+        "filterTypes": "#DIV__filtertype__73"
+    },
+    "blackColorText": "#colors__Black",
+    "filterbutton": "#filterBtn",
+    "productList":"div#product_grid>div"
+}

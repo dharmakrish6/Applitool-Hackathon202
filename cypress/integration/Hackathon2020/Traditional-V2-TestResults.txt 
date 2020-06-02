@@ -1,0 +1,69 @@
+Traditional Testing V2
+    Task 1 – Cross-Device Elements Test
+      ✓ Should display wishlist on macbook-13 screen (8877ms)
+      ✓ Should display searchIcon on macbook-13 screen (1253ms)
+      ✓ Should display filterTypes on macbook-13 screen (1659ms)
+      ✓ Should display wishlist on 1024,768 screen (819ms)
+      ✓ Should display searchIcon on 1024,768 screen (951ms)
+      ✓ Should display filterTypes on 1024,768 screen (1104ms)
+      1) Should not display wishlist on iphone-6 screen
+      2) Should not display searchIcon on iphone-6 screen
+      ✓ Should not display filterTypes on iphone-6 screen (2484ms)
+      3) Should not display wishlist on iphone-xr screen
+      4) Should not display searchIcon on iphone-xr screen
+      ✓ Should not display filterTypes on iphone-xr screen (1520ms)
+    Task 2 – Shopping Experience Test
+      5) Task 2 – Shopping Experience Test
+    Task 2 – Shopping Experience Test
+      6) Task 3 – Product Details Test
+
+
+Important notice: Your Applitools visual tests are currently running with a concurrency value of 1.
+This means that the visual tests don't run in parallel, and therefore the execution might be slower.
+If your Applitools license supports a higher concurrency level, learn how to configure it here: https://www.npmjs.com/package/@applitools/eyes-cypress#concurrency.
+Need a higher concurrency in your account? Email us @ sdr@applitools.com with your required concurrency level.
+
+  8 passing (54s)
+  6 failing
+
+  1) Traditional Testing V2
+       Task 1 – Cross-Device Elements Test
+         Should not display wishlist on iphone-6 screen:
+     AssertionError: Timed out retrying: expected '<a#A__wishlist__52.wishlist>' not to be 'visible'
+      at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress/integration/Hackathon2020/Traditional-V2-Tests.js:72:25)
+
+  2) Traditional Testing V2
+       Task 1 – Cross-Device Elements Test
+         Should not display searchIcon on iphone-6 screen:
+     AssertionError: Timed out retrying: expected '<div#DIV__colxlcollg__40.col-xl-6.col-lg-7.col-md-6.col-sm-6.col-6.d-md-block>' not to be 'visible'
+      at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress/integration/Hackathon2020/Traditional-V2-Tests.js:72:25)
+
+  3) Traditional Testing V2
+       Task 1 – Cross-Device Elements Test
+         Should not display wishlist on iphone-xr screen:
+     AssertionError: Timed out retrying: expected '<a#A__wishlist__52.wishlist>' not to be 'visible'
+      at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress/integration/Hackathon2020/Traditional-V2-Tests.js:72:25)
+
+  4) Traditional Testing V2
+       Task 1 – Cross-Device Elements Test
+         Should not display searchIcon on iphone-xr screen:
+     AssertionError: Timed out retrying: expected '<div#DIV__colxlcollg__40.col-xl-6.col-lg-7.col-md-6.col-sm-6.col-6.d-md-block>' not to be 'visible'
+      at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress/integration/Hackathon2020/Traditional-V2-Tests.js:72:25)
+
+  5) Traditional Testing V2
+       Task 2 – Shopping Experience Test
+         Task 2 – Shopping Experience Test:
+
+      AssertionError: expected '[ <div#DIV__colcolmd__211.col-6.col-md-4>, 2 more... ]' to have a length of 2 but got 3
+      + expected - actual
+
+      -3
+      +2
+
+      at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress/integration/Hackathon2020/Traditional-V2-Tests.js:83:32)
+
+  6) Traditional Testing V2
+       Task 2 – Shopping Experience Test
+         Task 3 – Product Details Test:
+     AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to contain '$33.00'
+      at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress/integration/Hackathon2020/Traditional-V2-Tests.js:90:43)

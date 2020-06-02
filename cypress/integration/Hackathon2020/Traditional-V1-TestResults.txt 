@@ -1,0 +1,18 @@
+Traditional Testing V1
+    Task 1 – Cross-Device Elements Test
+      ✓ Should display wishlist on macbook-13 screen (6928ms)
+      ✓ Should display searchIcon on macbook-13 screen (1992ms)
+      ✓ Should display filterTypes on macbook-13 screen (1781ms)
+      ✓ Should display wishlist on 1024,768 screen (1540ms)
+      ✓ Should display searchIcon on 1024,768 screen (1439ms)
+      ✓ Should display filterTypes on 1024,768 screen (1734ms)
+      ✓ Should not display wishlist on iphone-6 screen (1489ms)
+      ✓ Should not display searchIcon on iphone-6 screen (1809ms)
+      ✓ Should not display filterTypes on iphone-6 screen (1056ms)
+      ✓ Should not display wishlist on iphone-xr screen (1935ms)
+      ✓ Should not display searchIcon on iphone-xr screen (1922ms)
+      ✓ Should not display filterTypes on iphone-xr screen (983ms)
+    Task 2 – Shopping Experience Test
+      ✓ Task 2 – Shopping Experience Test (1070ms)
+    Task 2 – Shopping Experience Test
+      ✓ Task 3 – Product Details Test (1196ms)

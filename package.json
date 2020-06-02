@@ -1,0 +1,16 @@
+{
+  "name": "mycypress",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.11.1",
+    "@applitools/eyes-storybook": "^3.7.0",
+    "cypress": "^4.6.0"
+  }
+}
